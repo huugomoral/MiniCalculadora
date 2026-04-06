@@ -1,9 +1,15 @@
+/**
+ * Clase principal.
+ * @author Hugo Moral Rama
+ * @version 1.0
+ */
+
 public class miniCalculadora {
-    public void raizCuadrada(double valor) {
-        Math.sqrt(valor);
+    public double raizCuadrada(double valor) {
+        return Math.sqrt(valor);
     }
-    public void valorAbsoluto(double valor) {
-        Math.abs(valor);
+    public double valorAbsoluto(double valor) {
+        return Math.abs(valor);
     }
 
 }
