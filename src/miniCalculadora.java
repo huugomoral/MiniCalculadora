@@ -12,6 +12,11 @@ public class miniCalculadora {
     public double raizCuadrada(double valor) {
         return Math.sqrt(valor);
     }
+    /**
+     * <p>Este metodo lo que hace es calcular el valor absoluto del valor proporcionado por el usuario mediante una operacion Math.</p>
+     * @param valor
+     * @return <p>El valor absoluto</p>
+     */
     public double valorAbsoluto(double valor) {
         return Math.abs(valor);
     }
